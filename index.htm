@@ -1,0 +1,1043 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Renga - российская BIM-система для проектирования</title>
+    <meta content="Главный инструмент для BIM проектирования. Освободись от рутины по ручному вычерчиванию чертежей, а также подсчета спецификаций. Информационное моделирование на всем жизненном цикле здания."
+          name="description">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <meta content="7a6db473ad0d285d" name="yandex-verification">
+    <meta content="GuFySgFai7Irb2U0hYIF-OazeiTh5fReNNgaGlzRqBA" name="google-site-verification">
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="favicon.ico" rel="icon" type="image/x-icon">
+    <link href="manifest.json" rel="manifest">
+    <meta content="#ffffff" name="theme-color">
+
+    <link href="templates/renga/new/assets/css/all.min.css" rel="stylesheet">
+    <link href="templates/renga/new/assets/css/assets.css?v=1836065732" rel="stylesheet">
+    <link href="templates/renga/new/assets/css/style.css" rel="stylesheet">
+    <link href="templates/renga/new/assets/css/index.css" rel="stylesheet">
+    <link href="assets/css/style-new.css" rel="stylesheet">
+
+    <script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = 'https://vk.com/rtrg?p=VK-RTRG-109550-azkqm';</script>
+    <script type="text/javascript">!function () {
+        var t = document.createElement("script");
+        t.type = "text/javascript", t.async = !0, t.src = "https://vk.com/js/api/openapi.js?162", t.onload = function () {
+            VK.Retargeting.Init("VK-RTRG-401303-9fabZ"), VK.Retargeting.Hit()
+        }, document.head.appendChild(t)
+    }();</script>
+    <noscript><img alt="" src="rtrg?p=VK-RTRG-401303-9fabZ" style="position:fixed; left:-999px;"></noscript>
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-5HN6HF4');</script>
+    <!-- End Google Tag Manager -->
+
+</head>
+
+<body class="body_type_2011">
+<header class="b-header" id="header">
+    <svg class="svg-sprite" xmlns="http://www.w3.org/2000/svg">
+        <symbol id="arrow-down" viewbox="0 0 21 32">
+            <path class="path1"
+                  d="M19.196 13.143q0 0.232-0.179 0.411l-8.321 8.321q-0.179 0.179-0.411 0.179t-0.411-0.179l-8.321-8.321q-0.179-0.179-0.179-0.411t0.179-0.411l0.893-0.893q0.179-0.179 0.411-0.179t0.411 0.179l7.018 7.018 7.018-7.018q0.179-0.179 0.411-0.179t0.411 0.179l0.893 0.893q0.179 0.179 0.179 0.411z"></path>
+        </symbol>
+    </svg>
+    <div class="b-header_panel" id="header-panel">
+        <div class="container">
+            <div class="flex flex-nowrap flex-vertical-center flex-justify">
+                <div class="col-custom">
+                    <div class="b-header_panel_logo">
+                        <a class="b-header_panel_logo_pic" href="index.htm" rel="home">
+                            <img alt="Renga Software" src="assets/img/renga_new_logo.svg">
+                        </a>
+                        <span class="b-header_panel_logo_label">
+							Делаем BIM доступным!                        </span>
+                    </div>
+                </div>
+                <div class="col-custom col-custom--no-p">
+                    <div class="b-header_panel_social" id="header-panel-social">
+                        <a aria-hidden="true" class="b-header_panel_social_icon fab fa-vk" href="https://vk.com/rengabim"
+                           rel="external nofollow" target="_blank">
+                            <span class="visually-hidden">Вконтакте</span>
+                        </a>
+                        <a aria-hidden="true"
+                           class="b-header_panel_social_icon fab fa-dzen" href="https://zen.yandex.ru/id/5f62226c710a4c1a0b07ecaf"
+                           rel="external nofollow" target="_blank">
+                            <span class="visually-hidden">Я.Дзен</span>
+                        </a>
+                        <a aria-hidden="true"
+                           class="b-header_panel_social_icon fab fa-youtube" href="https://www.youtube.com/channel/UCM3Rn6MQfRxMjKQebKx8tCg"
+                           rel="external nofollow" target="_blank">
+                            <span class="visually-hidden">Youtube</span>
+                        </a>
+                        <a aria-hidden="true" class="b-header_panel_social_icon fab fa-telegram"
+                           href="https://t.me/renga_bim" rel="external nofollow" target="_blank">
+                            <span class="visually-hidden">Telegram</span>
+                        </a>
+
+                        <a aria-hidden="true" class="b-header_panel_social_btn fa-rss-mobile ajax_request" data-url="/ajax/webforms/getSubscriptionForm/?lang_id=1"
+                           href="#" rel="external nofollow">
+                            <span>Подписаться</span>
+                        </a>
+
+                        <a aria-hidden="true" class="b-header_panel_social_icon fab fa-search-mobile ff-awesome"
+                           href="search/index.htm" rel="external nofollow" target="_blank">
+                            <span class="visually-hidden">Поиск</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-custom col-custom--m-l" style="float: left;">
+                    <div class="b-header_panel_contacts" style="float: left;">
+
+                        <button aria-hidden="true" class="b-header_panel_contacts_social fas fa-users" onclick="toggleSocialOnMobile();"
+                                type="button"><span class="visually-hidden">Мы в соц.сетях</span>
+                        </button>
+
+                        <div class="b-header_panel_contacts_lang">
+
+								<span class="b-header_panel_contacts_lang_link fas fa-globe">
+                                                                            РОССИЯ И СНГ <svg aria-hidden="true"
+                                                                                              role="img">
+										<use href="#arrow-down" xlink:href="#arrow-down"></use>
+									</svg>
+                                        <ul class="l_ru">
+										<li>
+											<a href="en/index.htm">
+												INTERNATIONAL
+											</a>
+										</li>
+									</ul>
+                                    
+								</span>
+                        </div>
+
+                        <a aria-hidden="true" class="b-header_panel_social_btn fas fa-search ff-awesome"
+                           href="search/index.htm" rel="external nofollow">
+                            <span></span>
+                        </a>
+
+                        <div aria-hidden="true" class="b-header_panel_contacts_phone">
+                            <span class="b-header_panel_contacts_phone_label visually-hidden">Позвонить</span>
+                            <a class="b-header_panel_contacts_phone_number" href="tel:+7 (812) 703-10-11">
+                                +7 (812) 703-10-11
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="b-header_nav" id="header-nav">
+        <button aria-controls="top-menu" aria-expanded="false" class="b-header_nav_toggle"
+                onclick="toggleMenuOnMobile();">
+            <svg id="icon-bars" viewbox="0 0 27 32">
+                <path class="path1"
+                      d="M27.429 24v2.286q0 0.464-0.339 0.804t-0.804 0.339h-25.143q-0.464 0-0.804-0.339t-0.339-0.804v-2.286q0-0.464 0.339-0.804t0.804-0.339h25.143q0.464 0 0.804 0.339t0.339 0.804zM27.429 14.857v2.286q0 0.464-0.339 0.804t-0.804 0.339h-25.143q-0.464 0-0.804-0.339t-0.339-0.804v-2.286q0-0.464 0.339-0.804t0.804-0.339h25.143q0.464 0 0.804 0.339t0.339 0.804zM27.429 5.714v2.286q0 0.464-0.339 0.804t-0.804 0.339h-25.143q-0.464 0-0.804-0.339t-0.339-0.804v-2.286q0-0.464 0.339-0.804t0.804-0.339h25.143q0.464 0 0.804 0.339t0.339 0.804z"></path>
+            </svg>
+            <svg id="icon-close" viewbox="0 0 25 32">
+                <path class="path1"
+                      d="M23.179 23.607q0 0.714-0.5 1.214l-2.429 2.429q-0.5 0.5-1.214 0.5t-1.214-0.5l-5.25-5.25-5.25 5.25q-0.5 0.5-1.214 0.5t-1.214-0.5l-2.429-2.429q-0.5-0.5-0.5-1.214t0.5-1.214l5.25-5.25-5.25-5.25q-0.5-0.5-0.5-1.214t0.5-1.214l2.429-2.429q0.5-0.5 1.214-0.5t1.214 0.5l5.25 5.25 5.25-5.25q0.5-0.5 1.214-0.5t1.214 0.5l2.429 2.429q0.5 0.5 0.5 1.214t-0.5 1.214l-5.25 5.25 5.25 5.25q0.5 0.5 0.5 1.214z"></path>
+            </svg>
+            <span>Меню</span>
+        </button>
+        <div class="b-header_nav_box">
+            <div class="container">
+                <ul class="b-header_nav_menu flex flex-justify">
+                    <li class="col-auto hasChild ">
+                        <span>
+                            Продукт <svg aria-hidden="true" role="img">
+                                <use href="#arrow-down" xlink:href="#arrow-down"></use>
+                            </svg>
+                        </span>
+                        <button aria-expanded="false" class="b-header_nav_menu_toggle">
+                            <svg aria-hidden="true" role="img">
+                                <use href="#arrow-down" xlink:href="#arrow-down"></use>
+                            </svg>
+                        </button>
+                        <ul>
+                            <li>
+                                <a href="architecture/index.htm">
+                                    Renga для aрхитектора </a>
+                            </li>
+                            <li>
+                                <a href="structure/index.htm">
+                                    Renga для конструктора </a>
+                            </li>
+                            <li>
+                                <a href="mep/index.htm">
+                                    Renga для инженера по водоснабжению и водотведению </a>
+                            </li>
+                            <li>
+                                <a href="mep-otoplenie/index.htm">
+                                    Renga для инженера по отоплению </a>
+                            </li>
+                            <li>
+                                <a href="mep-ventiliaciya/index.htm">
+                                    Renga для инженера по вентиляции </a>
+                            </li>
+                            <li>
+                                <a href="mep-electrika/index.htm">
+                                    Renga для инженера по электрическим системам </a>
+                            </li>
+                            <li>
+                                <a href="sovmestnaya-rabota/index.htm">
+                                    Renga для совместной работы </a>
+                            </li>
+                            <li>
+                                <a href="application/index.htm">
+                                    Расширения для Renga </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="col-auto hasChild ">
+                        <span>
+                            События <svg aria-hidden="true" role="img">
+                                <use href="#arrow-down" xlink:href="#arrow-down"></use>
+                            </svg>
+                        </span>
+                        <button aria-expanded="false" class="b-header_nav_menu_toggle">
+                            <svg aria-hidden="true" role="img">
+                                <use href="#arrow-down" xlink:href="#arrow-down"></use>
+                            </svg>
+                        </button>
+                        <ul>
+                            <li>
+                                <a href="new_events/index.htm">
+                                    Мероприятия </a>
+                            </li>
+                            <li>
+                                <a href="contest/index.htm">
+                                    Конкурсы </a>
+                            </li>
+                            <li>
+                                <a href="news-bim-renga/index.htm">
+                                    Новости </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="col-auto hasChild ">
+                        <span>
+                            О компании <svg aria-hidden="true" role="img">
+                                <use href="#arrow-down" xlink:href="#arrow-down"></use>
+                            </svg>
+                        </span>
+                        <button aria-expanded="false" class="b-header_nav_menu_toggle">
+                            <svg aria-hidden="true" role="img">
+                                <use href="#arrow-down" xlink:href="#arrow-down"></use>
+                            </svg>
+                        </button>
+                        <ul>
+                            <li>
+                                <a href="about/index.htm">
+                                    Renga Software </a>
+                            </li>
+                            <li>
+                                <a href="vakavacancies/index.htm">
+                                    Вакансии </a>
+                            </li>
+                            <li>
+                                <a href="contacts/index.htm">
+                                    Контакты </a>
+                            </li>
+                            <li>
+                                <a href="dokumenty/index.htm">
+                                    Документы </a>
+                            </li>
+                            <li>
+                                <a href="grant/index.htm">
+                                    Грант РФРИТ </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="col-auto hasChild ">
+                        <span>
+                            Пользователю <svg aria-hidden="true" role="img">
+                                <use href="#arrow-down" xlink:href="#arrow-down"></use>
+                            </svg>
+                        </span>
+                        <button aria-expanded="false" class="b-header_nav_menu_toggle">
+                            <svg aria-hidden="true" role="img">
+                                <use href="#arrow-down" xlink:href="#arrow-down"></use>
+                            </svg>
+                        </button>
+                        <ul>
+                            <li>
+                                <a href="https://help.rengabim.com/">
+                                    Справка </a>
+                            </li>
+                            <li>
+                                <a href="learn/index.htm">
+                                    Обучение и сертификация </a>
+                            </li>
+                            <li>
+                                <a href="katalogi/index.htm">
+                                    BIM-каталоги </a>
+                            </li>
+                            <li>
+                                <a href="shablons/index.htm">
+                                    BIM-шаблоны </a>
+                            </li>
+                            <li>
+                                <a href="dorozhnaya-karta-rasshireniya-vozmozhnostej-renga-dlya-resheniya-zadach-proektirovaniya/index.htm">
+                                    Дорожная карта Renga </a>
+                            </li>
+                            <li>
+                                <a href="experience-of-users/index.htm">
+                                    Опыт пользователей </a>
+                            </li>
+                            <li>
+                                <a href="tipovye-proekty/index.htm">
+                                    Типовые BIM-проекты </a>
+                            </li>
+                            <li>
+                                <a href="stati/index.htm">
+                                    Статьи </a>
+                            </li>
+                            <li>
+                                <a href="http://rengarnd.blogspot.com/" target="_blank">
+                                    Блог </a>
+                            </li>
+                            <li>
+                                <a href="docs/index.htm">
+                                    Документы </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="col-auto hasChild ">
+                        <span>
+                            Разработчику <svg aria-hidden="true" role="img">
+                                <use href="#arrow-down" xlink:href="#arrow-down"></use>
+                            </svg>
+                        </span>
+                        <button aria-expanded="false" class="b-header_nav_menu_toggle">
+                            <svg aria-hidden="true" role="img">
+                                <use href="#arrow-down" xlink:href="#arrow-down"></use>
+                            </svg>
+                        </button>
+                        <ul>
+                            <li>
+                                <a href="sdk/index.htm">
+                                    SDK </a>
+                            </li>
+                            <li>
+                                <a href="http://help.rengabim.com/api/index.html">
+                                    Справка по API </a>
+                            </li>
+                            <li>
+                                <a href="http://forum.ascon.ru/index.php/board,67.0.html" target="_blank">
+                                    Форум </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="col-auto hasChild ">
+                            <span>
+								Центр поддержки <svg aria-hidden="true" role="img">
+									<use href="#arrow-down" xlink:href="#arrow-down"></use>
+								</svg>
+							</span>
+                        <button aria-expanded="false" class="b-header_nav_menu_toggle">
+                            <svg aria-hidden="true" role="img">
+                                <use href="#arrow-down" xlink:href="#arrow-down"></use>
+                            </svg>
+                        </button>
+                        <ul>
+                            <li>
+                                <a href="requirements/index.htm">
+                                    Технические требования </a>
+                            </li>
+                            <li>
+                                <a href="update/index.htm">
+                                    Обновление Renga </a>
+                            </li>
+                            <li>
+                                <a href="feedback/index.htm">
+                                    Обратная связь </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="col-auto hasChild reverse">
+                            <span>
+								Купить <svg aria-hidden="true" role="img">
+									<use href="#arrow-down" xlink:href="#arrow-down"></use>
+								</svg>
+							</span>
+                        <button aria-expanded="false" class="b-header_nav_menu_toggle">
+                            <svg aria-hidden="true" role="img">
+                                <use href="#arrow-down" xlink:href="#arrow-down"></use>
+                            </svg>
+                        </button>
+                        <ul>
+                            <li>
+                                <a href="stoimost-bim-sistemy-renga/index.htm">
+                                    Прайс-лист </a>
+                            </li>
+                            <li>
+                                <a href="special-offers/index.htm">
+                                    Специальные предложения </a>
+                            </li>
+                            <li>
+                                <a href="buy/index.htm">
+                                    Где купить </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="col-auto hasChild reverse">
+                            <span>
+								Скачать <svg aria-hidden="true" role="img">
+									<use href="#arrow-down" xlink:href="#arrow-down"></use>
+								</svg>
+							</span>
+                        <button aria-expanded="false" class="b-header_nav_menu_toggle">
+                            <svg aria-hidden="true" role="img">
+                                <use href="#arrow-down" xlink:href="#arrow-down"></use>
+                            </svg>
+                        </button>
+                        <ul>
+                            <li>
+                                <a href="download-renga/index.htm">
+                                    Скачать Renga </a>
+                            </li>
+                            <li>
+                                <a href="katalogi/index.htm">
+                                    BIM-каталоги </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            /* Переключение мобильного блока социалок*/
+            function toggleSocialOnMobile() {
+                var el = document.getElementById('header-panel-social');
+                if (el.classList.contains('showOnMobile')) {
+                    el.classList.remove('showOnMobile');
+                } else {
+                    el.classList.add('showOnMobile');
+                }
+            }/* Переключение мобильного меню*/
+            function toggleMenuOnMobile() {
+                var el = document.getElementById('header-nav');
+                if (el.classList.contains('expandedOnMobile')) {
+                    el.classList.remove('expandedOnMobile');
+                } else {
+                    el.classList.add('expandedOnMobile');
+                }
+            }/* VJS events*/
+            var eventFunctionMap = {};
+            document.on = function (event, selector, func) {
+                eventFunctionMap[event] = function (e) {
+                    if (!!e.target.closest(selector)) {
+                        func.call(e.target.closest(selector), e);
+                    }
+                };
+                document.addEventListener(event.split('.')[0], eventFunctionMap[event], false);
+            };
+            document.off = function (event) {
+                if (eventFunctionMap[event] !== 'undefined') {
+                    document.removeEventListener(event.split('.')[0], eventFunctionMap[event]);
+                    delete eventFunctionMap[event];
+                }
+            };/* Переключение подразделов мобильного меню*/
+            document.on('click.mobMenuLevels', '.b-header_nav_menu_toggle', function (e) {
+                this.closest('li').classList.toggle('expanded');
+            });/* Закрепление навигации при скролле*/
+            var header = document.getElementById('header'), headerPanel = document.getElementById('header-panel');
+            window.addEventListener('scroll', function () {
+                var offset = headerPanel.offsetHeight + 1,
+                    scroll = document.documentElement.scrollTop || document.body.scrollTop;
+                if (scroll >= offset) {
+                    header.classList.add('fixed');
+                } else {
+                    header.classList.remove('fixed');
+                }
+            });
+        </script>
+
+    </div>
+
+</header>
+<main>
+    <!-- promo carousel -->
+    <div class="view_clider owl-carousel" data-auto="1" data-delay="10010" data-loop="1" data-speed="100000">
+        <section class="promo" style="background-image: url('assets/img/banner1.jpg');">
+            <div class="container">
+                <div class="row">
+                    <div class="promo-text">
+                        <h1 class="promo-text-title">
+                            Шаблон проекта для прохождения экспертизы </h1>
+                        <div class="promo-text-description">
+                            <p>Получи бесплатно уже сейчас!</p></div>
+                        <div class="promo-text-action">
+                            <a class="btn " href="https://renga-promo.tilda.ws/page34458215.html">
+                                Получить шаблон </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="promo" style="background-image: url('assets/img/index5.png');">
+            <div class="container">
+                <div class="row">
+                    <div class="promo-text">
+                        <h1 class="promo-text-title">
+                            Хочешь научиться <br>моделировать в Renga?<br></h1>
+                        <div class="promo-text-description">
+                            <p>Получи бесплатные видеозаписи BIM-школы или запишись на авторские курсы наших
+                                партнеров</p></div>
+                    </div>
+                    <div class="promo-text-2">
+                        <div class="promo-text-action">
+                            <a class="btn " href=" https://obuchenierenga.tilda.ws/">
+                                Получить записи BIM-школы </a>
+                        </div>
+                        <div class="promo-text-action">
+                            <a class="btn " href="learn/index.htm#centers">
+                                Записаться на курсы </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="promo" style="background-image: url('assets/img/index11.jpg');">
+            <div class="container">
+                <div class="row">
+                    <div class="promo-text">
+                        <h1 class="promo-text-title">
+                            BIM-система<br><span>дружелюбная к пользователю</span></h1>
+                        <div class="promo-text-description">
+                            <p><span>Проектируйте с удовольствием и интегрируйте</span><br><span>BIM-модель в решения фирмы &laquo;1С&raquo;</span>
+                            </p></div>
+                        <div class="promo-text-action">
+                            <a class="btn " href="download-renga/index.htm">
+                                Попробовать бесплатно </a>
+                        </div>
+                    </div>
+                    <div class="promo-image">
+                        <img alt="Монитор" src="templates/renga/new/assets/img/design/bg/monitor.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- end promo carousel  -->
+
+    <!-- conditions section -->
+    <section class="section conditions">
+        <div class="container">
+            <h2 class="section-header">
+                Условия участия </h2>
+            <p class="section-subheader">
+                Подробности вы можете узнать на <a class="details" href="https://rengabim.com/">сайте</a>
+            </p>
+        </div>
+    </section>
+    <!-- end conditions section -->
+
+    <!-- works section -->
+    <section class="section works">
+        <div class="container">
+            <h2 class="section-header">
+                Работы участников
+            </h2>
+            <div class="works-slider owl-carousel">
+                <div class="works-slider-item">
+                    <img src="/assets/img/works/sample.png" alt="img">
+                </div>
+                <div class="works-slider-item">
+                    <img src="/assets/img/works/sample.png" alt="img">
+                </div>
+                <div class="works-slider-item">
+                    <img src="/assets/img/works/sample.png" alt="img">
+                </div>
+                <div class="works-slider-item">
+                    <img src="/assets/img/works/sample.png" alt="img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end works section -->
+
+    <!-- member photos section -->
+    <section class="section members">
+        <div class="container">
+            <div class="members-wrapper">
+                <div class="members-title">
+                    <h2 class="section-header">
+                        Фотографии участников </h2>
+                    <p class="section-subheader">
+                        Нашу участники отлично выступили в конкурсе.
+                    </p>
+                </div>
+                <div class="members-photos">
+                    <img src="/assets/img/members-photos.png" alt="img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end member photos section -->
+
+    <!-- renga figures section -->
+    <section class="section renga-figures">
+        <div class="container">
+            <div class="renga-figures-wrapper">
+                <div class="renga-figures-title">
+                    <h2 class="section-header">
+                        Мастер-Renga в цифрах </h2>
+                </div>
+                <div class="renga-figures-items">
+                    <div class="renga-figures-item">
+                        <div class="renga-figures-item--figure">20</div>
+                        <div class="renga-figures-item--title">компетенций основной возрастной категории</div>
+                        <div class="renga-figures-item--subtitle section-subheader">Участники 18 – 35 лет</div>
+                    </div>
+                    <div class="renga-figures-item">
+                        <div class="renga-figures-item--figure">10</div>
+                        <div class="renga-figures-item--title">компетенций  возрастной категории «Юниоры»</div>
+                        <div class="renga-figures-item--subtitle section-subheader">Участники 14 – 17 лет</div>
+                    </div>
+                    <div class="renga-figures-item">
+                        <div class="renga-figures-item--figure">70</div>
+                        <div class="renga-figures-item--title">экспертов</div>
+                        <div class="renga-figures-item--subtitle section-subheader">Компетенций чемпионата</div>
+                    </div>
+                    <div class="renga-figures-item">
+                        <div class="renga-figures-item--figure">3000</div>
+                        <div class="renga-figures-item--title">участников</div>
+                        <div class="renga-figures-item--subtitle section-subheader">Второго квалификационного этапа</div>
+                    </div>
+                    <div class="renga-figures-item">
+                        <div class="renga-figures-item--figure">3</div>
+                        <div class="renga-figures-item--title">направления</div>
+                        <div class="renga-figures-item--subtitle section-subheader">Командных соревнований</div>
+                    </div>
+                    <div class="renga-figures-item">
+                        <div class="renga-figures-item--figure">300</div>
+                        <div class="renga-figures-item--title">участников</div>
+                        <div class="renga-figures-item--subtitle section-subheader">Вышли в финал чемпионата</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end renga figures section -->
+
+    <section class="section awards">
+        <div class="container">
+            <div class="awards-wrapper">
+                <div class="awards-title">
+                    <h2 class="section-header">
+                        Призы </h2>
+                </div>
+                <div class="awards-content">
+                    <div class="awards-content-section">
+                        <div class="awards-content--places">
+                            <div class="awards-content--place">
+                                <div class="awards-content--title">1 место</div>
+                                <div class="awards-content--prize"><span class="awards-content--figure">500 000</span><span class="awards-content--currency">₽</span></div>
+                            </div>
+                            <div class="awards-content--place">
+                                <div class="awards-content--title">2 место</div>
+                                <div class="awards-content--prize"><span class="awards-content--figure">300 000</span><span class="awards-content--currency">₽</span></div>
+                            </div>
+                            <div class="awards-content--place">
+                                <div class="awards-content--title">3 место</div>
+                                <div class="awards-content--prize"><span class="awards-content--figure">150 000</span><span class="awards-content--currency">₽</span></div>
+                            </div>
+                        </div>
+                        <div class="awards-content--image">
+                            <img src="/assets/img/awards.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="awards-content-section">
+                        <div class="awards-content--list">
+                            <p class="awards-content--list-title">Сертификаты можно потратить на:</p>
+                            <ul>
+                                <li class="awards-content--list-item">Образовательные цели;</li>
+                                <li class="awards-content--list-item">Реализацию собственного проекта;</li>
+                                <li class="awards-content--list-item">Приобретение профессионального оборудования, материалов, инструментов и ПО в соотвествии с направлением деятельности.</li>
+                            </ul>
+                        </div>
+                        <div class="awards-content--list">
+                            <p class="awards-content--list-title">Партнерская программа:</p>
+                            <ul>
+                                <li class="awards-content--list-item">Стажировка в компании-партнере Чемпионата по компетенции и/или интеграция в действующий проект креативных индустрий;</li>
+                                <li class="awards-content--list-item">Предоставление оборудования, материалов или услуг необходимых для работы.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- experts section -->
+    <section class="section experts">
+        <div class="container">
+            <h2 class="section-header">
+                Главные эксперты Мастер-Renga 2023
+            </h2>
+                <p class="section-subheader">
+                    Главными экспертами Чемпионата ArtMasters являются лидеры креативных индустрий — авторитетные специалисты в области медиа, дизайна, кино, ТВ, музыки и коммуникаций; представители ведущих технологических компаний; лауреаты премий «Золотая маска», «Золотой орел», ТЭФИ и др.
+                </p>
+                <div class="experts-list">
+                    <div class="experts-list-item">
+                        <img class="expert-image" alt="img" src="/assets/img/experts/expert1.png"/>
+                        <div class="expert-description">
+                            <div class="expert-name">Сергей Васильев</div>
+                            <div class="expert-skill">Компетенция Художник по свету</div>
+                    </div>
+                </div>
+                    <div class="experts-list-item">
+                        <img class="expert-image" alt="img" src="/assets/img/experts/expert2.png"/>
+                        <div class="expert-description">
+                            <div class="expert-name">Анастасия Нефёдова</div>
+                            <div class="expert-skill">Компетенция Художник по костюму</div>
+                        </div>
+                    </div>
+                    <div class="experts-list-item">
+                        <img class="expert-image" alt="img" src="/assets/img/experts/expert3.png"/>
+                        <div class="expert-description">
+                            <div class="expert-name">Игорь Полонский</div>
+                            <div class="expert-skill">Компетенция Композитор популярной музыки</div>
+                        </div>
+                    </div>
+                    <div class="experts-list-item">
+                        <img class="expert-image" alt="img" src="/assets/img/experts/expert4.png"/>
+                        <div class="expert-description">
+                            <div class="expert-name">Елена Кипер</div>
+                            <div class="expert-skill">Компетенция Клипмейкер</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- end experts section -->
+
+    <!-- partners section -->
+    <section class="section partners">
+        <div class="partners-list">
+            <div class="container">
+                <h2 class="section-header partners-title">
+                    Партнеры
+                </h2>
+                <div class="partners-slider owl-carousel">
+                    <div class="partners-slider-item">
+                        <img alt="img" src="/assets/img/partners-logo/rf-culture.png"/>
+                    </div>
+                    <div class="partners-slider-item">
+                        <img alt="img" src="/assets/img/partners-logo/rf-science.png"/>
+                    </div>
+                    <div class="partners-slider-item">
+                        <img alt="img" src="/assets/img/partners-logo/gov-msk.png"/>
+                    </div>
+                    <div class="partners-slider-item">
+                        <img alt="img" src="/assets/img/partners-logo/rf-edu.png"/>
+                    </div>
+                    <div class="partners-slider-item">
+                        <img alt="img" src="/assets/img/partners-logo/rf-culture.png"/>
+                    </div>
+                    <div class="partners-slider-item">
+                        <img alt="img" src="/assets/img/partners-logo/rf-science.png"/>
+                    </div>
+                    <div class="partners-slider-item">
+                        <img alt="img" src="/assets/img/partners-logo/gov-msk.png"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end partners section -->
+
+
+    <!-- archive works section -->
+    <section class="section archive-works">
+        <div class="container">
+            <h2 class="section-header">
+                Архив работ участников
+            </h2>
+            <div class="archive-works-slider owl-carousel">
+                <div class="archive-works-slider-item">
+                    <img src="/assets/img/works/sample.png" alt="img">
+                </div>
+                <div class="archive-works-slider-item">
+                    <img src="/assets/img/works/sample.png" alt="img">
+                </div>
+                <div class="archive-works-slider-item">
+                    <img src="/assets/img/works/sample.png" alt="img">
+                </div>
+                <div class="archive-works-slider-item">
+                    <img src="/assets/img/works/sample.png" alt="img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end archive works section -->
+
+
+</main>
+<footer class="page-footer ">
+    <div class="page-footer__wrapper container">
+        <div class="page-footer__column" id="column-footer-left">
+            <div class="page-footer__contacts">
+                <h2 class="page-footer__title">
+                    Контакты </h2>
+                <p>
+                    Центральный офис и центр разработки: <br>Санкт-Петербург, Бизнес-центр 7-я линия В.О., 44<br>
+                    Тел +7 (812) 703-10-11 </p>
+            </div>
+            <ul class="social contacts__social custom-list left-social">
+                <li aria-hidden="true" class="social__item social__item--vk fab fa-vk">
+                    <a class="vk" href="https://vk.com/rengabim" rel="external nofollow" target="_blank">
+                        <span class="visually-hidden"> Вконтакте</span></a>
+                </li>
+                <li aria-hidden="true" class="social__item social__item--vk fab fa-dzen">
+                    <a class="facebook" href="https://zen.yandex.ru/id/5f62226c710a4c1a0b07ecaf" rel="external nofollow"
+                       target="_blank">
+                        <span class="visually-hidden">Я.Дзен</span>
+                    </a>
+                </li>
+                <li aria-hidden="true" class="social__item social__item--vk fab fa-youtube">
+                    <a class="youtube" href="https://www.youtube.com/channel/UCM3Rn6MQfRxMjKQebKx8tCg" rel="external nofollow"
+                       target="_blank">
+                        <span class="visually-hidden">YouTube</span>
+                    </a>
+                </li>
+                <li aria-hidden="true" class="social__item social__item--vk fab fa-telegram">
+                    <a class="instagram" href="https://t.me/renga_bim" rel="external nofollow" target="_blank">
+                        <span class="visually-hidden">Telegam</span></a>
+                </li>
+            </ul>
+        </div>
+        <div class="page-footer__column" id="column-footer-right">
+            <div class="page-footer__other">
+                <div class="page-footer__product" id="footer-product">
+                    <h2 class="page-footer__title">
+                        Продукт </h2>
+                    <ul class="custom-list">
+                        <li><a href="architecture/index.htm">Renga для архитектора</a></li>
+                        <li><a href="structure/index.htm">Renga для конструктора</a></li>
+                        <li><a href="mep/index.htm">Renga для инженера ВК</a></li>
+                        <li><a href="application/index.htm">Расширения</a></li>
+                        <li><a href="download-renga/index.htm">Скачать Renga</a></li>
+                        <li><a href="buy/index.htm">Купить</a></li>
+                    </ul>
+                </div>
+                <div class="page-footer__product" id="footer-product">
+                    <div class="page-footer__usefull">
+                        <h2 class="page-footer__title"> События</h2>
+                        <ul class="custom-list">
+                            <li><a href="news-bim-renga/index.htm">Новости</a></li>
+                            <li><a href="new_events/index.htm">Мероприятия</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="page-footer__other-wrapper" id="footer-product">
+                    <div class="page-footer__usefull">
+                        <h2 class="page-footer__title">Полезное</h2>
+                        <ul class="custom-list">
+                            <li><a href="sdk/index.htm">Разработчику</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="page-footer__other-wrapper" id="footer-product">
+                    <div class="page-footer__usefull">
+                        <h2 class="page-footer__title">
+                            Информация </h2>
+                        <ul class="custom-list">
+                            <li><a href="about/index.htm">О компании</a></li>
+                            <li><a href="/press-room/">Пресс-рум</a></li>
+                            <li><a href="vakavacancies/index.htm">Вакансии</a></li>
+                            <li><a href="rekvizity/index.htm">Реквизиты</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page-footer__copyright container">
+        <p class="page-footer__copyright-item">
+            <img class="img-footer-renga" src="assets/img/RengaSoftware_logo_2.svg"><br>
+            <span>© ООО Ренга Софтвэа, 2016 — 2023</span>
+        </p>
+    </div>
+</footer>
+
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function () {
+            try {
+                w.yaCounter29280115 = new Ya.Metrika({
+                    id: 29280115,
+                    webvisor: true,
+                    clickmap: true,
+                    trackLinks: true,
+                    accurateTrackBounce: true
+                });
+            } catch (e) {
+            }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () {
+                n.parentNode.insertBefore(s, n);
+            };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else {
+            f();
+        }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript>
+    <div><img alt="" src="watch/29280115" style="position:absolute; left:-9999px;"></div>
+</noscript>
+<!-- /Yandex.Metrika counter -->
+
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-101112180-1', 'auto');
+    ga('send', 'pageview');
+    ga('require', 'linkid');
+    ga('require', 'displayfeatures');
+</script>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-5HN6HF4" style="display:none;visibility:hidden"
+            width="0"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- <script type='text/javascript'>
+    window['li'+'veT'+'ex'] = true,
+        window['liv'+'eT'+'exI'+'D'] = 144590,
+        window['liv'+'eTex_o'+'bject'] = true;
+    (function() {
+        var t = document['create'+'Ele'+'me'+'nt']('script');
+        t.type ='text/javascript';
+        t.async = true;
+        t.src = '//cs15.live'+'t'+'ex.ru/js/c'+'lient.'+'js';
+        var c = document['g'+'etEle'+'m'+'entsBy'+'Tag'+'N'+'am'+'e']('script')[0];
+        if ( c ) c['pare'+'ntN'+'ode']['insert'+'Befor'+'e'](t, c);
+        else document['do'+'cu'+'mentE'+'lemen'+'t']['fi'+'rstC'+'h'+'ild']['appe'+'ndCh'+'il'+'d'](t);
+    })();
+</script> -->
+
+<script type="text/javascript">
+    function togtog(id) {
+        var bl = '#' + id;
+        jQuery('#' + id).slideToggle();
+        $(bl).next(".comment").slideToggle();
+        return false;
+    }
+
+    function gopp(num) {
+        jQuery("a[rel^='prettyPhoto']:eq(" + num + ")").click();
+    }
+</script>
+
+
+<script>
+    !function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+            n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '182190775915428');
+    fbq('track', 'PageView');
+</script>
+<noscript><img height="1" src="tr?id=182190775915428&ev=PageView&noscript=1" style="display:none" width="1"></noscript>
+<!– End Facebook Pixel Code –>
+<script>
+    if (jQuery().videoPopup) {
+        $(function () {
+            if (jQuery().videoPopup) {
+                $("body").on("click", ".video_psd", function () {
+                    var $w = $(this).width();
+                    var $h = $(this).height();
+                    $(".video_psd").videoPopup({
+                        autoplay: true,
+                        width: $w,
+                        height: $h
+                    });
+                    return false;
+                });
+                $("#video2").videoPopup();
+            }
+        });
+    }
+</script>
+
+<script crossorigin="anonymous" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        src="jquery-3.4.1.min.js"></script>
+
+<script>
+    window.jQuery || document.write('<script src="/js/vendor/jquery-3.4.1.min.js"><\/script>')
+    !function () {
+        var t = document.createElement("script");
+        t.type = "text/javascript", t.async = !0, t.src = "https://vk.com/js/api/openapi.js?169", t.onload = function () {
+            VK.Retargeting.Init("VK-RTRG-1080254-eoS8r"), VK.Retargeting.Hit()
+        }, document.head.appendChild(t)
+    }();
+</script>
+
+<script src="templates/renga/new/assets/js/assets.js"></script>
+<script src="templates/renga/new/assets/js/main.js?1685831327"></script>
+<script src="templates/renga/new/assets/js/functions.min.js?1685831327"></script>
+<script src="templates/renga/js/renga.js?2023-04-0629"></script>
+<script src="assets/js/home.js"></script>
+
+
+</body>
+</html>
+<!-- This page generated in 0.070108 secs by PHP, SITE MODE -->
