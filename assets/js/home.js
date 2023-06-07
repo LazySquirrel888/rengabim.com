@@ -14,8 +14,8 @@ $(document).ready(function () {
             0: {items: 1, margin: 20},
             576: {items: 1, margin: 20},
             768: {items: 1, margin: 20},
-            992: {items: 3, margin: 20},
-            1130: {items: 3, margin: 24}
+            992: {items: 1, margin: 20},
+            1200: {items: 3, margin: 24}
         }
     });
     $(".archive-works-slider").owlCarousel({
@@ -29,9 +29,9 @@ $(document).ready(function () {
         responsive: {
             0: {items: 1, margin: 20},
             576: {items: 1, margin: 20},
-            768: {items: 3, margin: 20},
-            992: {items: 3, margin: 20},
-            1130: {items: 3, margin: 24}
+            768: {items: 1, margin: 20},
+            992: {items: 1, margin: 20},
+            1200: {items: 3, margin: 20}
         }
     });
     $(".partners-slider").owlCarousel({
@@ -45,10 +45,10 @@ $(document).ready(function () {
         loop: true,
         responsive: {
             0: {items: 2, margin: 40},
-            576: {items: 2, margin: 40},
+            576: {items: 2, margin: 20},
             768: {items: 3, margin: 40},
             992: {items: 3, margin: 40},
-            1130: {items: 4, margin: 42}
+            1130: {items: 4, margin: 40}
         }
     });
     $(".b-header_panel_contacts_lang").on("click", function () {
