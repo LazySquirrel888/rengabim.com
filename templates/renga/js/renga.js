@@ -212,8 +212,8 @@ $(function(){
             success:function (data) {
 
                 $('body').append(data);
-                $('body').append('<div class="pp_default popup_project"><img class="cube" src="/templates/renga/images/round_cube.png"><div class="preview_work_ajax"><div id="loading"><img src="/templates/renga/images/ring_loader.gif"><span>Идет загрузка проекта...</span></div></div>' +
-                    '<img src=""><a class="pp_close" href="#">Close</a></div>');
+                $('body').append('<div class="pp_default popup_project"><images class="cube" src="/templates/renga/images/round_cube.png"><div class="preview_work_ajax"><div id="loading"><images src="/templates/renga/images/ring_loader.gif"><span>Идет загрузка проекта...</span></div></div>' +
+                    '<images src=""><a class="pp_close" href="#">Close</a></div>');
 
                 var popup = jQuery('.popup_project');
                 popup.width(width);
@@ -287,8 +287,8 @@ $(function(){
     });
 
     $('.imgOctaider').each(function(){
-        $(this).find('img').addClass('hidden');
-        var src=$(this).find('img').attr('src');
+        $(this).find('images').addClass('hidden');
+        var src=$(this).find('images').attr('src');
         $(this).append('<div class="bg"></div>');
         $(this).append('<div class="mask"></div>');
         $(this).find('.bg').css('background-image','url(' + src + ')');
@@ -455,8 +455,8 @@ $(function(){
 
                 if(current == 79711) {
                     $('body').append(data);
-                    $('body').append('<div class="pp_default popup_project"><img class="cube" src="/templates/renga/images/round_cube.png"><div class="preview_work_ajax"><div id="loading"><img src="/templates/renga/images/ring_loader.gif"><span>Идет загрузка проекта...</span></div></div>' +
-                        '<img src=""><a class="pp_close" href="#">Close</a></div>');
+                    $('body').append('<div class="pp_default popup_project"><images class="cube" src="/templates/renga/images/round_cube.png"><div class="preview_work_ajax"><div id="loading"><images src="/templates/renga/images/ring_loader.gif"><span>Идет загрузка проекта...</span></div></div>' +
+                        '<images src=""><a class="pp_close" href="#">Close</a></div>');
                 }else{
                     $('body').append(data);
                 }

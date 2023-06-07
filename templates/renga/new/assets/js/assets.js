@@ -144,7 +144,7 @@
         this.replace(this.$element.children().not(this.$stage.parent())), this.isVisible() ? this.refresh() : this.invalidate("width"), this.$element.removeClass(this.options.loadingClass).addClass(this.options.loadedClass)
     }, l.prototype.initialize = function () {
         var t, e;
-        this.enter("initializing"), this.trigger("initialize"), this.$element.toggleClass(this.settings.rtlClass, this.settings.rtl), this.settings.autoWidth && !this.is("pre-loading") && (t = this.$element.find("img"), e = this.settings.nestedItemSelector ? "." + this.settings.nestedItemSelector : a, e = this.$element.children(e).width(), t.length && e <= 0 && this.preloadAutoWidthImages(t)), this.initializeStage(), this.initializeItems(), this.registerEventHandlers(), this.leave("initializing"), this.trigger("initialized")
+        this.enter("initializing"), this.trigger("initialize"), this.$element.toggleClass(this.settings.rtlClass, this.settings.rtl), this.settings.autoWidth && !this.is("pre-loading") && (t = this.$element.find("images"), e = this.settings.nestedItemSelector ? "." + this.settings.nestedItemSelector : a, e = this.$element.children(e).width(), t.length && e <= 0 && this.preloadAutoWidthImages(t)), this.initializeStage(), this.initializeItems(), this.registerEventHandlers(), this.leave("initializing"), this.trigger("initialized")
     }, l.prototype.isVisible = function () {
         return !this.settings.checkVisibility || this.$element.is(":visible")
     }, l.prototype.setup = function () {
@@ -441,7 +441,7 @@
             this._core.trigger("load", {
                 element: i,
                 url: s
-            }, "lazy"), i.is("img") ? i.one("load.owl.lazy", a.proxy(function () {
+            }, "lazy"), i.is("images") ? i.one("load.owl.lazy", a.proxy(function () {
                 i.css("opacity", 1), this._core.trigger("loaded", {element: i, url: s}, "lazy")
             }, this)).attr("src", s) : i.is("source") ? i.one("load.owl.lazy", a.proxy(function () {
                 this._core.trigger("loaded", {element: i, url: s}, "lazy")
@@ -532,12 +532,12 @@
         }
 
         var s, n, o = t.width && t.height ? "width:" + t.width + "px;height:" + t.height + "px;" : "",
-            r = e.find("img"), a = "src", h = "", l = this._core.settings;
+            r = e.find("images"), a = "src", h = "", l = this._core.settings;
         if (e.wrap(c("<div/>", {
             class: "owl-video-wrapper",
             style: o
         })), this._core.settings.lazyLoad && (a = "data-src", h = "owl-lazy"), r.length) return i(r.attr(a)), r.remove(), !1;
-        "youtube" === t.type ? (n = "//img.youtube.com/vi/" + t.id + "/hqdefault.jpg", i(n)) : "vimeo" === t.type ? c.ajax({
+        "youtube" === t.type ? (n = "//images.youtube.com/vi/" + t.id + "/hqdefault.jpg", i(n)) : "vimeo" === t.type ? c.ajax({
             type: "GET",
             url: "//vimeo.com/api/v2/video/" + t.id + ".json",
             jsonp: "callback",
