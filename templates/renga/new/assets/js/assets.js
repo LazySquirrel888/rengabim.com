@@ -537,7 +537,7 @@
             class: "owl-video-wrapper",
             style: o
         })), this._core.settings.lazyLoad && (a = "data-src", h = "owl-lazy"), r.length) return i(r.attr(a)), r.remove(), !1;
-        "youtube" === t.type ? (n = "//images.youtube.com/vi/" + t.id + "/hqdefault.jpg", i(n)) : "vimeo" === t.type ? c.ajax({
+        "youtube" === t.type ? (n = "//img.youtube.com/vi/" + t.id + "/hqdefault.jpg", i(n)) : "vimeo" === t.type ? c.ajax({
             type: "GET",
             url: "//vimeo.com/api/v2/video/" + t.id + ".json",
             jsonp: "callback",
